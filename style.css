@@ -1,0 +1,25 @@
+#main{
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    margin-top: 2rem;
+}
+
+#pic, #how{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+body{
+    background-repeat: no-repeat;
+    background-image: url(./back5.jpeg);
+    background-size: cover;
+}
+
+h1, h2, h3{
+  font-family: "Caveat", cursive;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
